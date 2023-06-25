@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resposta{
+    margin-top: 16px;
+    display: block
+    
+}
+
+.image{
+    max-width: 270px;
+    margin-right: 80px;
+    margin-top: -134px;
+}
+
+.text{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.App{
+    max-width: 960px;
+    height: 35vw;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding: 100px 50px;
+    padding-left: 120px;
+    
+}
+
+.titulo{
+    background-color: #303952;
+    height: 10vw;
+    max-width: 960px;
+    margin: 20px auto 0px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.titulo h1{
+    font-size: 40px;
+    color: white;
+    padding: 50px;
+}
+
+.dados1, .dados2 {
+    margin-bottom: 12px;
+}
+
+.botao{
+    background-color: #3dc1d3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px;
+    margin: 12px 0;
+    border-radius: 2px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
