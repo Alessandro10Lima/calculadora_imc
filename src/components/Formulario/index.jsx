@@ -3,8 +3,8 @@ import styles from './Formulario.module.css';
 
     const Formulario = ({ label, value, onChange }) => {
     return (
-        <div>
-        <label>{label}:</label>
+        <div className={styles.form}>
+        <label className={styles.entrada}>{label}:</label>
         <input className={styles.valor} type="number" value={value} onChange={onChange} />
         </div>
     );

@@ -1,4 +1,19 @@
 .valor{
-    width: 220px;
+    width: 240px;
     border-radius: 3px;
+}
+
+.entrada{
+    margin-right: 8px;
+}
+
+
+@media (max-width: 767px) {
+    .valor{
+        width: 100%;
+    }
+    
+    .form{
+        max-width: 285px;
+    }
 }

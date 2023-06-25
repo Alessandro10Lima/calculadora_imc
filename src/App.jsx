@@ -57,7 +57,7 @@ function App() {
       </div>
       <div className="dados2">
       <Formulario
-        label="Peso (kg) "
+        label="Peso (kg)"
         value={peso}
         onChange={(e) => setPeso(e.target.value)}
       />

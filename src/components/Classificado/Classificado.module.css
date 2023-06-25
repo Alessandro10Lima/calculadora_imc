@@ -19,3 +19,24 @@
     margin-right: 20px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 767px) {
+    .container{
+        display:block;
+    }
+
+    .image{
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:959px){
+    .container{
+        display:flex;
+    }
+
+    .image{
+        margin-right: 40px;
+    }
+}

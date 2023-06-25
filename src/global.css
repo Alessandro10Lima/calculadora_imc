@@ -35,14 +35,61 @@
     margin-bottom: 12px;
 }
 
+.dados2{
+    margin-right: 20px;
+}
+
 .botao{
     background-color: #3dc1d3;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
-    padding: 6px;
+    padding: 6px 10px;
     margin: 12px 0;
     border-radius: 2px;
     border: 1px solid #000;
     cursor: pointer;
+    }
+
+    .botao:hover{
+        background-color: rgba(0, 225, 255, 0.9)
+    }
+
+@media (max-width: 767px) {
+    .App{
+        width: 90%;
+        padding: 40px 16px;
+        height: 140vw;
+    }
+
+    .titulo{
+        width: 90%;
+        height: 15vw;
+    }
+
+    .titulo h1{
+        font-size: 24px;
+        padding: 12px 0px;
+        
+    }
+
+    .botao{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:959px){
+    .App{
+        padding: 40px 60px;
+        height: 40vw;
+    }
+
+    .titulo{
+        margin-top: 0;
+    }
+
+    .titulo h1{
+        padding: 20px;
+    }
+
 }
